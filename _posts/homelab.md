@@ -1,11 +1,8 @@
 ---
-title: "Git Flow: Automatizando Seu Fluxo de Trabalho"
-date: "2023-10-30"
-categoria: "Desenvolvimento"
-tags:
-  - Git
-  - Git Flow
-  - Controle de Versão
+title: Git Flow: Automatizando Seu Fluxo de Trabalho
+date: 2023-10-30
+categoria: [Desenvolvimento]
+tags: [Git, Git Flow, Controle de Versão]
 ---
 
 # Bem-vindo!
