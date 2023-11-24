@@ -15,6 +15,9 @@ O Git Flow é uma metodologia para organizar o desenvolvimento com o Git, facili
 
 ## Principais Benefícios
 
+
+Uma das grandes coisas do GitFlow é que ele facilita muito o desenvolvimento paralelo, isolando o novo desenvolvimento do trabalho finalizado.
+
 - **Desenvolvimento Paralelo:** Permitindo o desenvolvimento simultâneo de diferentes funcionalidades.
   
 - **Colaboração:** Facilita a colaboração entre membros da equipe.
