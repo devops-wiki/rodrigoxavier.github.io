@@ -1,11 +1,12 @@
 ---
-title: HomeLab
-date: 2023-11-24
-categoria: [Desenvolvimento]
-tags: [Git, Git Flow, Controle de Versão]
+title: "HomeLab"
+date: 2023-11-27 00:00:00 +0800
+categories: [Desenvolvimento]
+tags: [Git, Git Flow, Versionamento e Arquivos de Marcação]
 ---
 
 # Bem-vindo!
+
 
 Neste artigo, exploraremos como utilizar o Git Flow para automatizar seu fluxo de trabalho de ramificação Git.
 
@@ -30,27 +31,27 @@ Uma das grandes coisas do GitFlow é que ele facilita muito o desenvolvimento pa
 
 Novo desenvolvimento (novos recursos, correções de bugs não emergenciais) são incorporados ramos de recursos:
 
-![Alt text](image.png)
+![Alt text](/assets/img/posts/image.png)
 
 Os ramos de características são ramificados fora da desenvelop ramo, e os recursos e correções acabados são mesclados de volta ao desenvelop ramo quando eles estão prontos para lançamento:
 
-![Alt text](image-1.png)
+![Alt text](/assets/img/posts/image-1.png)
 
 Quando é hora de fazer um lançamento, um ramo de liberação é criado a partir de desenvelop:
 
-![Alt text](image-2.png)
+![Alt text](/assets/img/posts/image-2.png)
 
 O código no ramificação de liberação é implantado em um ambiente de teste adequado, testado e quaisquer problemas são corrigidos diretamente no ramo de liberação. Este implantar - teste > - correção > - reimplantação > - reteste de > O ciclo continua até você ficar feliz que o lançamento seja bom o suficiente para ser lançado aos clientes.
 
 Quando o lançamento terminar, o ramificação de liberação é fundido em master e para desenvelop também, para garantir que quaisquer alterações feitas no ramificação de liberação não são acidentalmente perdidos por novos desenvolvimentos.
 
-![Alt text](image-3.png)
+![Alt text](/assets/img/posts/image-3.png)
 
 O ramo master faixas liberadas apenas código. O único compromisso é mestre são fusões de solte ramos e ramificações de hotfix.
 
 Ramos hotfix são usados para criar correções de emergência:
 
-![Alt text](image-4.png)
+![Alt text](/assets/img/posts/image-4.png)
 
 Eles são ramificados diretamente de uma liberação marcada no ramo mestre, e quando terminados são mesclados de volta em ambos mestre e desenvolver para se certificar de que o hotfix é acidentalmente perdido quando a próxima versão regular ocorre.
 
@@ -97,4 +98,5 @@ Os ramos hotfix são mesclados tanto em master quanto em develop.
 Espero que essas informações sejam úteis para entender e implementar o Git Flow em seu projeto!
 
 
-Certifique-se de ajustar as informações específicas, como a data, tags, e detalhes sobre as versões, de acordo com o seu contexto. Este é apenas um exemplo para começar.
+Certifique-se de ajustar as informações específicas, como a data, tags, e detalhes sobre as versões, de acordo com o seu contexto. Este é apenas um exemplo para começar. -->
+

@@ -16,10 +16,10 @@ timezone: America/Sao_Paulo
 
 title: HomeLab Docs # the main title
 
-tagline: Um site do Google Docs para meu Home Lab # it will display as the sub-title
+tagline: my personal blog # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Um site do Google Docs para meu Home Lab.
+  blog, tremo, github
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -182,6 +182,7 @@ exclude:
   - README.md
   - LICENSE
   - rollup.config.js
+  - node_modules
   - package*.json
 
 jekyll-archives:
