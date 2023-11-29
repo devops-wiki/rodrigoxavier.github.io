@@ -35,3 +35,5 @@ git flow feature start css
 Finalizando a branch feature 
 
 git flow feature finish css 
+
+Criando a release 1.0 para ser testada
