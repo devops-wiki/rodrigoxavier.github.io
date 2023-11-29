@@ -31,9 +31,6 @@ Now, start committing on your feature. When done, use:
 
 git flow feature start css 
 
-
-Finalizando a branch feature 
-
-git flow feature finish css 
+git flow feature finish css > Finalizando a branch feature 
 
 Criando a release 1.0 para ser testada
